@@ -1,0 +1,6 @@
+framework module Pods_VoteApp {
+  umbrella header "Pods-VoteApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		492468369162C22BD7680CA8 /* Pods_VoteAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0456D72951CC5675F27BC56 /* Pods_VoteAppTests.framework */; };
+		9316B023226CB10F00AD4994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B022226CB10F00AD4994 /* AppDelegate.swift */; };
+		9316B025226CB10F00AD4994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B024226CB10F00AD4994 /* ViewController.swift */; };
+		9316B028226CB10F00AD4994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9316B026226CB10F00AD4994 /* Main.storyboard */; };
+		9316B02A226CB10F00AD4994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9316B029226CB10F00AD4994 /* Assets.xcassets */; };
+		9316B02D226CB10F00AD4994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9316B02B226CB10F00AD4994 /* LaunchScreen.storyboard */; };
+		9316B038226CB10F00AD4994 /* VoteAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B037226CB10F00AD4994 /* VoteAppTests.swift */; };
+		9316B043226CB10F00AD4994 /* VoteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B042226CB10F00AD4994 /* VoteAppUITests.swift */; };
+		9316B051226CB12700AD4994 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B050226CB12700AD4994 /* Encryption.swift */; };
+		B49E319DB45677C0FD5F8028 /* Pods_VoteAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55105C9835362A5099D2E491 /* Pods_VoteAppUITests.framework */; };
+		FF262095A6DB1DEC3C2089A8 /* Pods_VoteApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF10D44A9205B06DCE447DB /* Pods_VoteApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9316B034226CB10F00AD4994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9316B017226CB10F00AD4994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9316B01E226CB10F00AD4994;
+			remoteInfo = VoteApp;
+		};
+		9316B03F226CB10F00AD4994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9316B017226CB10F00AD4994 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9316B01E226CB10F00AD4994;
+			remoteInfo = VoteApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		48D10CB09FFA11EE5E981D26 /* Pods-VoteAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteAppUITests.release.xcconfig"; path = "Target Support Files/Pods-VoteAppUITests/Pods-VoteAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		540628632BF8BCB54E161866 /* Pods-VoteApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteApp.release.xcconfig"; path = "Target Support Files/Pods-VoteApp/Pods-VoteApp.release.xcconfig"; sourceTree = "<group>"; };
+		55105C9835362A5099D2E491 /* Pods_VoteAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoteAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C1AD498DABC1E3011ABAAF2 /* Pods-VoteAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteAppTests.debug.xcconfig"; path = "Target Support Files/Pods-VoteAppTests/Pods-VoteAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		750E98F7A34C99FFE4006F5A /* Pods-VoteAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteAppTests.release.xcconfig"; path = "Target Support Files/Pods-VoteAppTests/Pods-VoteAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B786C06BD0D9A5CEBC15A73 /* Pods-VoteAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-VoteAppUITests/Pods-VoteAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9316B01F226CB10F00AD4994 /* VoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9316B022226CB10F00AD4994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9316B024226CB10F00AD4994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9316B027226CB10F00AD4994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9316B029226CB10F00AD4994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9316B02C226CB10F00AD4994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9316B02E226CB10F00AD4994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9316B033226CB10F00AD4994 /* VoteAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoteAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9316B037226CB10F00AD4994 /* VoteAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteAppTests.swift; sourceTree = "<group>"; };
+		9316B039226CB10F00AD4994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9316B03E226CB10F00AD4994 /* VoteAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoteAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9316B042226CB10F00AD4994 /* VoteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteAppUITests.swift; sourceTree = "<group>"; };
+		9316B044226CB10F00AD4994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9316B050226CB12700AD4994 /* Encryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
+		A0456D72951CC5675F27BC56 /* Pods_VoteAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoteAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEC1AB12D0AB732140B0886 /* Pods-VoteApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteApp.debug.xcconfig"; path = "Target Support Files/Pods-VoteApp/Pods-VoteApp.debug.xcconfig"; sourceTree = "<group>"; };
+		ECF10D44A9205B06DCE447DB /* Pods_VoteApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoteApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9316B01C226CB10F00AD4994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF262095A6DB1DEC3C2089A8 /* Pods_VoteApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316B030226CB10F00AD4994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492468369162C22BD7680CA8 /* Pods_VoteAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316B03B226CB10F00AD4994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49E319DB45677C0FD5F8028 /* Pods_VoteAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9316B016226CB10F00AD4994 = {
+			isa = PBXGroup;
+			children = (
+				9316B021226CB10F00AD4994 /* VoteApp */,
+				9316B036226CB10F00AD4994 /* VoteAppTests */,
+				9316B041226CB10F00AD4994 /* VoteAppUITests */,
+				9316B020226CB10F00AD4994 /* Products */,
+				E6836315AC069492F66D1767 /* Pods */,
+				C93D1BD549398F143807C347 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9316B020226CB10F00AD4994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9316B01F226CB10F00AD4994 /* VoteApp.app */,
+				9316B033226CB10F00AD4994 /* VoteAppTests.xctest */,
+				9316B03E226CB10F00AD4994 /* VoteAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9316B021226CB10F00AD4994 /* VoteApp */ = {
+			isa = PBXGroup;
+			children = (
+				9316B022226CB10F00AD4994 /* AppDelegate.swift */,
+				9316B024226CB10F00AD4994 /* ViewController.swift */,
+				9316B050226CB12700AD4994 /* Encryption.swift */,
+				9316B026226CB10F00AD4994 /* Main.storyboard */,
+				9316B029226CB10F00AD4994 /* Assets.xcassets */,
+				9316B02B226CB10F00AD4994 /* LaunchScreen.storyboard */,
+				9316B02E226CB10F00AD4994 /* Info.plist */,
+			);
+			path = VoteApp;
+			sourceTree = "<group>";
+		};
+		9316B036226CB10F00AD4994 /* VoteAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9316B037226CB10F00AD4994 /* VoteAppTests.swift */,
+				9316B039226CB10F00AD4994 /* Info.plist */,
+			);
+			path = VoteAppTests;
+			sourceTree = "<group>";
+		};
+		9316B041226CB10F00AD4994 /* VoteAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9316B042226CB10F00AD4994 /* VoteAppUITests.swift */,
+				9316B044226CB10F00AD4994 /* Info.plist */,
+			);
+			path = VoteAppUITests;
+			sourceTree = "<group>";
+		};
+		C93D1BD549398F143807C347 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECF10D44A9205B06DCE447DB /* Pods_VoteApp.framework */,
+				A0456D72951CC5675F27BC56 /* Pods_VoteAppTests.framework */,
+				55105C9835362A5099D2E491 /* Pods_VoteAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6836315AC069492F66D1767 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDEC1AB12D0AB732140B0886 /* Pods-VoteApp.debug.xcconfig */,
+				540628632BF8BCB54E161866 /* Pods-VoteApp.release.xcconfig */,
+				6C1AD498DABC1E3011ABAAF2 /* Pods-VoteAppTests.debug.xcconfig */,
+				750E98F7A34C99FFE4006F5A /* Pods-VoteAppTests.release.xcconfig */,
+				7B786C06BD0D9A5CEBC15A73 /* Pods-VoteAppUITests.debug.xcconfig */,
+				48D10CB09FFA11EE5E981D26 /* Pods-VoteAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9316B01E226CB10F00AD4994 /* VoteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9316B047226CB10F00AD4994 /* Build configuration list for PBXNativeTarget "VoteApp" */;
+			buildPhases = (
+				F0D35A05471A1190D04B6CCE /* [CP] Check Pods Manifest.lock */,
+				9316B01B226CB10F00AD4994 /* Sources */,
+				9316B01C226CB10F00AD4994 /* Frameworks */,
+				9316B01D226CB10F00AD4994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoteApp;
+			productName = VoteApp;
+			productReference = 9316B01F226CB10F00AD4994 /* VoteApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9316B032226CB10F00AD4994 /* VoteAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9316B04A226CB10F00AD4994 /* Build configuration list for PBXNativeTarget "VoteAppTests" */;
+			buildPhases = (
+				35C6E2A99513E3A0A5948D20 /* [CP] Check Pods Manifest.lock */,
+				9316B02F226CB10F00AD4994 /* Sources */,
+				9316B030226CB10F00AD4994 /* Frameworks */,
+				9316B031226CB10F00AD4994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9316B035226CB10F00AD4994 /* PBXTargetDependency */,
+			);
+			name = VoteAppTests;
+			productName = VoteAppTests;
+			productReference = 9316B033226CB10F00AD4994 /* VoteAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9316B03D226CB10F00AD4994 /* VoteAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9316B04D226CB10F00AD4994 /* Build configuration list for PBXNativeTarget "VoteAppUITests" */;
+			buildPhases = (
+				B15BA05271D1FA65BAE06FFD /* [CP] Check Pods Manifest.lock */,
+				9316B03A226CB10F00AD4994 /* Sources */,
+				9316B03B226CB10F00AD4994 /* Frameworks */,
+				9316B03C226CB10F00AD4994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9316B040226CB10F00AD4994 /* PBXTargetDependency */,
+			);
+			name = VoteAppUITests;
+			productName = VoteAppUITests;
+			productReference = 9316B03E226CB10F00AD4994 /* VoteAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9316B017226CB10F00AD4994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ilya Glazunov";
+				TargetAttributes = {
+					9316B01E226CB10F00AD4994 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					9316B032226CB10F00AD4994 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 9316B01E226CB10F00AD4994;
+					};
+					9316B03D226CB10F00AD4994 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 9316B01E226CB10F00AD4994;
+					};
+				};
+			};
+			buildConfigurationList = 9316B01A226CB10F00AD4994 /* Build configuration list for PBXProject "VoteApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9316B016226CB10F00AD4994;
+			productRefGroup = 9316B020226CB10F00AD4994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9316B01E226CB10F00AD4994 /* VoteApp */,
+				9316B032226CB10F00AD4994 /* VoteAppTests */,
+				9316B03D226CB10F00AD4994 /* VoteAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9316B01D226CB10F00AD4994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9316B02D226CB10F00AD4994 /* LaunchScreen.storyboard in Resources */,
+				9316B02A226CB10F00AD4994 /* Assets.xcassets in Resources */,
+				9316B028226CB10F00AD4994 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316B031226CB10F00AD4994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316B03C226CB10F00AD4994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35C6E2A99513E3A0A5948D20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoteAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B15BA05271D1FA65BAE06FFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoteAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D35A05471A1190D04B6CCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VoteApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9316B01B226CB10F00AD4994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9316B051226CB12700AD4994 /* Encryption.swift in Sources */,
+				9316B025226CB10F00AD4994 /* ViewController.swift in Sources */,
+				9316B023226CB10F00AD4994 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316B02F226CB10F00AD4994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9316B038226CB10F00AD4994 /* VoteAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9316B03A226CB10F00AD4994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9316B043226CB10F00AD4994 /* VoteAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9316B035226CB10F00AD4994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9316B01E226CB10F00AD4994 /* VoteApp */;
+			targetProxy = 9316B034226CB10F00AD4994 /* PBXContainerItemProxy */;
+		};
+		9316B040226CB10F00AD4994 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9316B01E226CB10F00AD4994 /* VoteApp */;
+			targetProxy = 9316B03F226CB10F00AD4994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9316B026226CB10F00AD4994 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9316B027226CB10F00AD4994 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9316B02B226CB10F00AD4994 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9316B02C226CB10F00AD4994 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9316B045226CB10F00AD4994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9316B046226CB10F00AD4994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9316B048226CB10F00AD4994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDEC1AB12D0AB732140B0886 /* Pods-VoteApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJ7WEU84RH;
+				INFOPLIST_FILE = VoteApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SSAU.VoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9316B049226CB10F00AD4994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540628632BF8BCB54E161866 /* Pods-VoteApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJ7WEU84RH;
+				INFOPLIST_FILE = VoteApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SSAU.VoteApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9316B04B226CB10F00AD4994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C1AD498DABC1E3011ABAAF2 /* Pods-VoteAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJ7WEU84RH;
+				INFOPLIST_FILE = VoteAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SSAU.VoteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoteApp.app/VoteApp";
+			};
+			name = Debug;
+		};
+		9316B04C226CB10F00AD4994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 750E98F7A34C99FFE4006F5A /* Pods-VoteAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJ7WEU84RH;
+				INFOPLIST_FILE = VoteAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SSAU.VoteAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoteApp.app/VoteApp";
+			};
+			name = Release;
+		};
+		9316B04E226CB10F00AD4994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B786C06BD0D9A5CEBC15A73 /* Pods-VoteAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJ7WEU84RH;
+				INFOPLIST_FILE = VoteAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SSAU.VoteAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoteApp;
+			};
+			name = Debug;
+		};
+		9316B04F226CB10F00AD4994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48D10CB09FFA11EE5E981D26 /* Pods-VoteAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YJ7WEU84RH;
+				INFOPLIST_FILE = VoteAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SSAU.VoteAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoteApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9316B01A226CB10F00AD4994 /* Build configuration list for PBXProject "VoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9316B045226CB10F00AD4994 /* Debug */,
+				9316B046226CB10F00AD4994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9316B047226CB10F00AD4994 /* Build configuration list for PBXNativeTarget "VoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9316B048226CB10F00AD4994 /* Debug */,
+				9316B049226CB10F00AD4994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9316B04A226CB10F00AD4994 /* Build configuration list for PBXNativeTarget "VoteAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9316B04B226CB10F00AD4994 /* Debug */,
+				9316B04C226CB10F00AD4994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9316B04D226CB10F00AD4994 /* Build configuration list for PBXNativeTarget "VoteAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9316B04E226CB10F00AD4994 /* Debug */,
+				9316B04F226CB10F00AD4994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9316B017226CB10F00AD4994 /* Project object */;
+}
