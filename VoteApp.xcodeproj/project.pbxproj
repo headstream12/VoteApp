@@ -16,6 +16,28 @@
 		9316B038226CB10F00AD4994 /* VoteAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B037226CB10F00AD4994 /* VoteAppTests.swift */; };
 		9316B043226CB10F00AD4994 /* VoteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B042226CB10F00AD4994 /* VoteAppUITests.swift */; };
 		9316B051226CB12700AD4994 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B050226CB12700AD4994 /* Encryption.swift */; };
+		9316B06B226CB6FE00AD4994 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B054226CB6FD00AD4994 /* GCD.swift */; };
+		9316B06C226CB6FE00AD4994 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B055226CB6FD00AD4994 /* Division.swift */; };
+		9316B06D226CB6FE00AD4994 /* Prime Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B056226CB6FD00AD4994 /* Prime Test.swift */; };
+		9316B06E226CB6FE00AD4994 /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B057226CB6FD00AD4994 /* Multiplication.swift */; };
+		9316B06F226CB6FE00AD4994 /* Subtraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B058226CB6FD00AD4994 /* Subtraction.swift */; };
+		9316B070226CB6FE00AD4994 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B059226CB6FD00AD4994 /* Random.swift */; };
+		9316B071226CB6FE00AD4994 /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B05A226CB6FE00AD4994 /* Strideable.swift */; };
+		9316B072226CB6FE00AD4994 /* BigInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B05B226CB6FE00AD4994 /* BigInt.swift */; };
+		9316B073226CB6FE00AD4994 /* Data Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B05C226CB6FE00AD4994 /* Data Conversion.swift */; };
+		9316B074226CB6FE00AD4994 /* String Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B05D226CB6FE00AD4994 /* String Conversion.swift */; };
+		9316B075226CB6FE00AD4994 /* Addition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B05E226CB6FE00AD4994 /* Addition.swift */; };
+		9316B076226CB6FE00AD4994 /* Bitwise Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B05F226CB6FE00AD4994 /* Bitwise Ops.swift */; };
+		9316B077226CB6FE00AD4994 /* Words and Bits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B060226CB6FE00AD4994 /* Words and Bits.swift */; };
+		9316B078226CB6FE00AD4994 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B061226CB6FE00AD4994 /* Codable.swift */; };
+		9316B07A226CB6FE00AD4994 /* Square Root.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B063226CB6FE00AD4994 /* Square Root.swift */; };
+		9316B07B226CB6FE00AD4994 /* Comparable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B064226CB6FE00AD4994 /* Comparable.swift */; };
+		9316B07C226CB6FE00AD4994 /* BigUInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B065226CB6FE00AD4994 /* BigUInt.swift */; };
+		9316B07D226CB6FE00AD4994 /* Integer Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B066226CB6FE00AD4994 /* Integer Conversion.swift */; };
+		9316B07E226CB6FE00AD4994 /* Shifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B067226CB6FE00AD4994 /* Shifts.swift */; };
+		9316B07F226CB6FE00AD4994 /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B068226CB6FE00AD4994 /* Exponentiation.swift */; };
+		9316B080226CB6FE00AD4994 /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B069226CB6FE00AD4994 /* Floating Point Conversion.swift */; };
+		9316B081226CB6FE00AD4994 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B06A226CB6FE00AD4994 /* Hashable.swift */; };
 		B49E319DB45677C0FD5F8028 /* Pods_VoteAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55105C9835362A5099D2E491 /* Pods_VoteAppUITests.framework */; };
 		FF262095A6DB1DEC3C2089A8 /* Pods_VoteApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF10D44A9205B06DCE447DB /* Pods_VoteApp.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +80,28 @@
 		9316B042226CB10F00AD4994 /* VoteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteAppUITests.swift; sourceTree = "<group>"; };
 		9316B044226CB10F00AD4994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9316B050226CB12700AD4994 /* Encryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
+		9316B054226CB6FD00AD4994 /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
+		9316B055226CB6FD00AD4994 /* Division.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
+		9316B056226CB6FD00AD4994 /* Prime Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Prime Test.swift"; sourceTree = "<group>"; };
+		9316B057226CB6FD00AD4994 /* Multiplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Multiplication.swift; sourceTree = "<group>"; };
+		9316B058226CB6FD00AD4994 /* Subtraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subtraction.swift; sourceTree = "<group>"; };
+		9316B059226CB6FD00AD4994 /* Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Random.swift; sourceTree = "<group>"; };
+		9316B05A226CB6FE00AD4994 /* Strideable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strideable.swift; sourceTree = "<group>"; };
+		9316B05B226CB6FE00AD4994 /* BigInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigInt.swift; sourceTree = "<group>"; };
+		9316B05C226CB6FE00AD4994 /* Data Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data Conversion.swift"; sourceTree = "<group>"; };
+		9316B05D226CB6FE00AD4994 /* String Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String Conversion.swift"; sourceTree = "<group>"; };
+		9316B05E226CB6FE00AD4994 /* Addition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Addition.swift; sourceTree = "<group>"; };
+		9316B05F226CB6FE00AD4994 /* Bitwise Ops.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bitwise Ops.swift"; sourceTree = "<group>"; };
+		9316B060226CB6FE00AD4994 /* Words and Bits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Words and Bits.swift"; sourceTree = "<group>"; };
+		9316B061226CB6FE00AD4994 /* Codable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Codable.swift; sourceTree = "<group>"; };
+		9316B063226CB6FE00AD4994 /* Square Root.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Square Root.swift"; sourceTree = "<group>"; };
+		9316B064226CB6FE00AD4994 /* Comparable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comparable.swift; sourceTree = "<group>"; };
+		9316B065226CB6FE00AD4994 /* BigUInt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BigUInt.swift; sourceTree = "<group>"; };
+		9316B066226CB6FE00AD4994 /* Integer Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Integer Conversion.swift"; sourceTree = "<group>"; };
+		9316B067226CB6FE00AD4994 /* Shifts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shifts.swift; sourceTree = "<group>"; };
+		9316B068226CB6FE00AD4994 /* Exponentiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exponentiation.swift; sourceTree = "<group>"; };
+		9316B069226CB6FE00AD4994 /* Floating Point Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Floating Point Conversion.swift"; sourceTree = "<group>"; };
+		9316B06A226CB6FE00AD4994 /* Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hashable.swift; sourceTree = "<group>"; };
 		A0456D72951CC5675F27BC56 /* Pods_VoteAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoteAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEC1AB12D0AB732140B0886 /* Pods-VoteApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteApp.debug.xcconfig"; path = "Target Support Files/Pods-VoteApp/Pods-VoteApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF10D44A9205B06DCE447DB /* Pods_VoteApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoteApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +160,7 @@
 		9316B021226CB10F00AD4994 /* VoteApp */ = {
 			isa = PBXGroup;
 			children = (
+				9316B053226CB6EC00AD4994 /* BigInt */,
 				9316B022226CB10F00AD4994 /* AppDelegate.swift */,
 				9316B024226CB10F00AD4994 /* ViewController.swift */,
 				9316B050226CB12700AD4994 /* Encryption.swift */,
@@ -145,6 +190,35 @@
 			path = VoteAppUITests;
 			sourceTree = "<group>";
 		};
+		9316B053226CB6EC00AD4994 /* BigInt */ = {
+			isa = PBXGroup;
+			children = (
+				9316B05E226CB6FE00AD4994 /* Addition.swift */,
+				9316B05B226CB6FE00AD4994 /* BigInt.swift */,
+				9316B065226CB6FE00AD4994 /* BigUInt.swift */,
+				9316B05F226CB6FE00AD4994 /* Bitwise Ops.swift */,
+				9316B061226CB6FE00AD4994 /* Codable.swift */,
+				9316B064226CB6FE00AD4994 /* Comparable.swift */,
+				9316B05C226CB6FE00AD4994 /* Data Conversion.swift */,
+				9316B055226CB6FD00AD4994 /* Division.swift */,
+				9316B068226CB6FE00AD4994 /* Exponentiation.swift */,
+				9316B069226CB6FE00AD4994 /* Floating Point Conversion.swift */,
+				9316B054226CB6FD00AD4994 /* GCD.swift */,
+				9316B06A226CB6FE00AD4994 /* Hashable.swift */,
+				9316B066226CB6FE00AD4994 /* Integer Conversion.swift */,
+				9316B057226CB6FD00AD4994 /* Multiplication.swift */,
+				9316B056226CB6FD00AD4994 /* Prime Test.swift */,
+				9316B059226CB6FD00AD4994 /* Random.swift */,
+				9316B067226CB6FE00AD4994 /* Shifts.swift */,
+				9316B063226CB6FE00AD4994 /* Square Root.swift */,
+				9316B05A226CB6FE00AD4994 /* Strideable.swift */,
+				9316B05D226CB6FE00AD4994 /* String Conversion.swift */,
+				9316B058226CB6FD00AD4994 /* Subtraction.swift */,
+				9316B060226CB6FE00AD4994 /* Words and Bits.swift */,
+			);
+			path = BigInt;
+			sourceTree = "<group>";
+		};
 		C93D1BD549398F143807C347 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +239,6 @@
 				7B786C06BD0D9A5CEBC15A73 /* Pods-VoteAppUITests.debug.xcconfig */,
 				48D10CB09FFA11EE5E981D26 /* Pods-VoteAppUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -372,9 +445,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9316B06D226CB6FE00AD4994 /* Prime Test.swift in Sources */,
+				9316B07A226CB6FE00AD4994 /* Square Root.swift in Sources */,
+				9316B07C226CB6FE00AD4994 /* BigUInt.swift in Sources */,
+				9316B078226CB6FE00AD4994 /* Codable.swift in Sources */,
+				9316B074226CB6FE00AD4994 /* String Conversion.swift in Sources */,
+				9316B06E226CB6FE00AD4994 /* Multiplication.swift in Sources */,
+				9316B080226CB6FE00AD4994 /* Floating Point Conversion.swift in Sources */,
+				9316B077226CB6FE00AD4994 /* Words and Bits.swift in Sources */,
+				9316B076226CB6FE00AD4994 /* Bitwise Ops.swift in Sources */,
+				9316B075226CB6FE00AD4994 /* Addition.swift in Sources */,
+				9316B07F226CB6FE00AD4994 /* Exponentiation.swift in Sources */,
+				9316B06F226CB6FE00AD4994 /* Subtraction.swift in Sources */,
+				9316B081226CB6FE00AD4994 /* Hashable.swift in Sources */,
 				9316B051226CB12700AD4994 /* Encryption.swift in Sources */,
+				9316B071226CB6FE00AD4994 /* Strideable.swift in Sources */,
 				9316B025226CB10F00AD4994 /* ViewController.swift in Sources */,
+				9316B072226CB6FE00AD4994 /* BigInt.swift in Sources */,
+				9316B07B226CB6FE00AD4994 /* Comparable.swift in Sources */,
+				9316B06C226CB6FE00AD4994 /* Division.swift in Sources */,
+				9316B073226CB6FE00AD4994 /* Data Conversion.swift in Sources */,
+				9316B06B226CB6FE00AD4994 /* GCD.swift in Sources */,
+				9316B07E226CB6FE00AD4994 /* Shifts.swift in Sources */,
 				9316B023226CB10F00AD4994 /* AppDelegate.swift in Sources */,
+				9316B07D226CB6FE00AD4994 /* Integer Conversion.swift in Sources */,
+				9316B070226CB6FE00AD4994 /* Random.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

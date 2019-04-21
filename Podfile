@@ -6,7 +6,7 @@ target 'VoteApp' do
   use_frameworks!
 
   # Pods for VoteApp
-
+  
   target 'VoteAppTests' do
     inherit! :search_paths
     # Pods for testing
