@@ -38,6 +38,8 @@
 		9316B07F226CB6FE00AD4994 /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B068226CB6FE00AD4994 /* Exponentiation.swift */; };
 		9316B080226CB6FE00AD4994 /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B069226CB6FE00AD4994 /* Floating Point Conversion.swift */; };
 		9316B081226CB6FE00AD4994 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B06A226CB6FE00AD4994 /* Hashable.swift */; };
+		935E710E227B50890080BD0A /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E710D227B50890080BD0A /* AuthViewController.swift */; };
+		935E7111227B53680080BD0A /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E7110227B53680080BD0A /* Appearance.swift */; };
 		B49E319DB45677C0FD5F8028 /* Pods_VoteAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55105C9835362A5099D2E491 /* Pods_VoteAppUITests.framework */; };
 		FF262095A6DB1DEC3C2089A8 /* Pods_VoteApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF10D44A9205B06DCE447DB /* Pods_VoteApp.framework */; };
 /* End PBXBuildFile section */
@@ -102,6 +104,8 @@
 		9316B068226CB6FE00AD4994 /* Exponentiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exponentiation.swift; sourceTree = "<group>"; };
 		9316B069226CB6FE00AD4994 /* Floating Point Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Floating Point Conversion.swift"; sourceTree = "<group>"; };
 		9316B06A226CB6FE00AD4994 /* Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hashable.swift; sourceTree = "<group>"; };
+		935E710D227B50890080BD0A /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		935E7110227B53680080BD0A /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 		A0456D72951CC5675F27BC56 /* Pods_VoteAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoteAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEC1AB12D0AB732140B0886 /* Pods-VoteApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteApp.debug.xcconfig"; path = "Target Support Files/Pods-VoteApp/Pods-VoteApp.debug.xcconfig"; sourceTree = "<group>"; };
 		ECF10D44A9205B06DCE447DB /* Pods_VoteApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VoteApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -160,14 +164,13 @@
 		9316B021226CB10F00AD4994 /* VoteApp */ = {
 			isa = PBXGroup;
 			children = (
-				9316B053226CB6EC00AD4994 /* BigInt */,
-				9316B022226CB10F00AD4994 /* AppDelegate.swift */,
-				9316B024226CB10F00AD4994 /* ViewController.swift */,
+				935E710F227B53550080BD0A /* _Root */,
+				935E7106227B4F780080BD0A /* _Framework */,
+				935E7105227B4F5F0080BD0A /* _Launcher */,
+				935E710A227B4FE20080BD0A /* Auth */,
 				9316B050226CB12700AD4994 /* Encryption.swift */,
 				9316B026226CB10F00AD4994 /* Main.storyboard */,
-				9316B029226CB10F00AD4994 /* Assets.xcassets */,
-				9316B02B226CB10F00AD4994 /* LaunchScreen.storyboard */,
-				9316B02E226CB10F00AD4994 /* Info.plist */,
+				9316B024226CB10F00AD4994 /* ViewController.swift */,
 			);
 			path = VoteApp;
 			sourceTree = "<group>";
@@ -217,6 +220,81 @@
 				9316B060226CB6FE00AD4994 /* Words and Bits.swift */,
 			);
 			path = BigInt;
+			sourceTree = "<group>";
+		};
+		935E7105227B4F5F0080BD0A /* _Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				9316B022226CB10F00AD4994 /* AppDelegate.swift */,
+				9316B02B226CB10F00AD4994 /* LaunchScreen.storyboard */,
+				9316B029226CB10F00AD4994 /* Assets.xcassets */,
+				9316B02E226CB10F00AD4994 /* Info.plist */,
+			);
+			path = _Launcher;
+			sourceTree = "<group>";
+		};
+		935E7106227B4F780080BD0A /* _Framework */ = {
+			isa = PBXGroup;
+			children = (
+				935E7108227B4F8F0080BD0A /* Model */,
+				935E7107227B4F890080BD0A /* UIKit */,
+			);
+			path = _Framework;
+			sourceTree = "<group>";
+		};
+		935E7107227B4F890080BD0A /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		935E7108227B4F8F0080BD0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				935E7109227B4FA90080BD0A /* External */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		935E7109227B4FA90080BD0A /* External */ = {
+			isa = PBXGroup;
+			children = (
+				9316B053226CB6EC00AD4994 /* BigInt */,
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		935E710A227B4FE20080BD0A /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				935E710C227B50190080BD0A /* Model */,
+				935E710B227B50150080BD0A /* UI */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		935E710B227B50150080BD0A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				935E710D227B50890080BD0A /* AuthViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		935E710C227B50190080BD0A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		935E710F227B53550080BD0A /* _Root */ = {
+			isa = PBXGroup;
+			children = (
+				935E7110227B53680080BD0A /* Appearance.swift */,
+			);
+			path = _Root;
 			sourceTree = "<group>";
 		};
 		C93D1BD549398F143807C347 /* Frameworks */ = {
@@ -453,6 +531,7 @@
 				9316B06E226CB6FE00AD4994 /* Multiplication.swift in Sources */,
 				9316B080226CB6FE00AD4994 /* Floating Point Conversion.swift in Sources */,
 				9316B077226CB6FE00AD4994 /* Words and Bits.swift in Sources */,
+				935E710E227B50890080BD0A /* AuthViewController.swift in Sources */,
 				9316B076226CB6FE00AD4994 /* Bitwise Ops.swift in Sources */,
 				9316B075226CB6FE00AD4994 /* Addition.swift in Sources */,
 				9316B07F226CB6FE00AD4994 /* Exponentiation.swift in Sources */,
@@ -470,6 +549,7 @@
 				9316B023226CB10F00AD4994 /* AppDelegate.swift in Sources */,
 				9316B07D226CB6FE00AD4994 /* Integer Conversion.swift in Sources */,
 				9316B070226CB6FE00AD4994 /* Random.swift in Sources */,
+				935E7111227B53680080BD0A /* Appearance.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -6,6 +6,7 @@ target 'VoteApp' do
   use_frameworks!
 
   # Pods for VoteApp
+  pod 'IQKeyboardManagerSwift'
   
   target 'VoteAppTests' do
     inherit! :search_paths
