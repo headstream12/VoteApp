@@ -7,64 +7,122 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17F2B3ED3CFDC70A106886BE7B9F29B9 /* Pods-VoteAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 831CDEEEA176350BBD3883F3BEF8CFC4 /* Pods-VoteAppTests-dummy.m */; };
-		21A2206D05FAD1D93FBB8357FF611E6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		365C1DFF2E356434DCFEE5F7698C53BA /* Pods-VoteAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFE7AF79E53D75DBF26BD727FFEB846 /* Pods-VoteAppUITests-dummy.m */; };
-		5A3F8CFEA9A9759D0A3A9F79D96C96E4 /* Pods-VoteApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 429D300018DDD2CB9612F01DFE424988 /* Pods-VoteApp-dummy.m */; };
-		7E86572DA7878F21DF313DEC460AC89F /* Pods-VoteAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C001E37F5A24109DB7EB894FEA8F3A9F /* Pods-VoteAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ACF375591D91237D2F2BA8C30C3B10AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		B1DAA10E08B855B94E1007BF1C16697F /* Pods-VoteApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF938D13D0DD9BF0A6CCAFC140658962 /* Pods-VoteApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C522376AD38A811E6CD84C8FAF0A93FD /* Pods-VoteAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCDE6CF303436C9AFD016198BCC85FF /* Pods-VoteAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E193D6FFD1919146947B5DADCA3DC3C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		02FB225950EEA73C12B14A3D74A2096E /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9550B7C63A7F17BDC25A3E2C7F741EBF /* IQUIView+IQKeyboardToolbar.swift */; };
+		10D2B86B20A2834AB7A078584D886434 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		17F2B3ED3CFDC70A106886BE7B9F29B9 /* Pods-VoteAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC28CD2B28B3A621A8D4DD8C10A2F49 /* Pods-VoteAppTests-dummy.m */; };
+		21A2206D05FAD1D93FBB8357FF611E6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		25D3C46D03847B4A5C67CDC6D7E4E68C /* Pods-VoteApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D4FA51F3D2469AE071201AEC7F2F4945 /* Pods-VoteApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30C07F53D870FC78B292E0E4F91FEE9E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */; };
+		365C1DFF2E356434DCFEE5F7698C53BA /* Pods-VoteAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12331BED19FBA0B60525E79395C96733 /* Pods-VoteAppUITests-dummy.m */; };
+		36DD0B1007BF3C7BFE352704D5C415F7 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1CDD4F340C23DD238A853E560C9006 /* IQTextView.swift */; };
+		4467D1C8AABFA6FC321AC7CD6F327B48 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE2D9C1C947F1D271D5D71B985E0303 /* IQUITextFieldView+Additions.swift */; };
+		4A3294F2FCFF96D15DA6FD2D5D839788 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668EC25022AD83512D0240759720F4D1 /* IQUIView+Hierarchy.swift */; };
+		4E3E6EC07A4F261D041BA0C4CA258260 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */; };
+		5677C54BF14ABA45675F2DEB98AFD0D1 /* IQKeyboardManagerSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71341C7750CB520E68AE4FBAA5EE29F9 /* IQKeyboardManagerSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		633A43974DB81C2CCB1A2C3A7B1BFB37 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7A924E1116084CDAF162CB833FCF9C /* IQKeyboardManager.swift */; };
+		7E86572DA7878F21DF313DEC460AC89F /* Pods-VoteAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF3741DCE543B8C94770A0196BAD96D5 /* Pods-VoteAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92E9BD908B71CFA1C6EDA2FA86BF1635 /* IQKeyboardManagerSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE4D8A90A17E37E16348E9C480E4B3C /* IQKeyboardManagerSwift-dummy.m */; };
+		986EF56798DE2C7C65737AD9334E517D /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E9DF635FB01E2C2FD627DD26ADCBD3 /* IQNSArray+Sort.swift */; };
+		A380ABE3F1AF1CA7A14F9449BDC0B73F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		ACF375591D91237D2F2BA8C30C3B10AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */; };
+		B178B38FCD7F99B07422484FC7FD6861 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 50331ED50EE4396032B16C854AD8ED89 /* IQKeyboardManager.bundle */; };
+		B2A4A7D1BD7C4D59EA0FF0A49163A387 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DD08FE155A184B25A9AD6442DB039 /* IQBarButtonItem.swift */; };
+		B888C49BC46C9A62CBF03A8FAD7126F1 /* IQInvocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA2C1FA7B66AE5161BD2DB253FB9997 /* IQInvocation.swift */; };
+		BA61F495C0E45AA2A88D21D51575FF02 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A8BC998D2B89A05AEEBE8B9DA642BAE /* IQKeyboardReturnKeyHandler.swift */; };
+		C522376AD38A811E6CD84C8FAF0A93FD /* Pods-VoteAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D7ED286EDAF01A36877E238625C5FB1F /* Pods-VoteAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3A177F9BCAD7042B46E0A36CEDDBF8E /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6648E2CC965FC59B434F295C2CCDB8F0 /* IQTitleBarButtonItem.swift */; };
+		D7D49BAE6EAAD5EC2DAF370BCDE783A2 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB2E86A9817F45A2FCB8B121AAB43D66 /* IQToolbar.swift */; };
+		D8F4B5841E455F5170B1C2FC30863B05 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52E2517C711AF6D227A9CC155D98419 /* IQKeyboardManagerConstantsInternal.swift */; };
+		DD420F096096C518F8E6B44583BF6521 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294C872FBA45BED12432A9873D0CBA8 /* IQKeyboardManagerConstants.swift */; };
+		DDAC963022C8D96EBAAD2284780E0276 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4309F43DFCE682F75A3E84038E87C8D /* IQUIScrollView+Additions.swift */; };
+		E3334CC660C4BD5E41C1061B9DC56FF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */; };
+		ED37E15394A0880E5233F1CD958134F8 /* Pods-VoteApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 65F004842BE5DD698DCAB663C6841CCF /* Pods-VoteApp-dummy.m */; };
+		F0A9F7366B446EDAE4716768BCCADE6C /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D189D060C30D8E7D9FE457D683C5670 /* IQPreviousNextView.swift */; };
+		F852C0100AB6D9D2CE3E28FCA487C67E /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CBBA914B82B97B6A8FAC4BA9BFF279 /* IQUIViewController+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7E85DCB47572AF0CB0070B9E15FD5EE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFF87187B46551C36797F2B899C54212;
+			remoteInfo = IQKeyboardManagerSwift;
+		};
 		9B4C65D9487DE9CA65208506D1098450 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 563CECE4E21275BDDF0FC1187F92BE4A;
+			remoteGlobalIDString = 91E594AE4546660C837C364AB4902B9B;
 			remoteInfo = "Pods-VoteApp";
 		};
 		F02F243469BBF014A981DD6198A9D523 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 563CECE4E21275BDDF0FC1187F92BE4A;
+			remoteGlobalIDString = 91E594AE4546660C837C364AB4902B9B;
 			remoteInfo = "Pods-VoteApp";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A86201F13E892C02E5011DC22BFD16D /* Pods-VoteApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoteApp.debug.xcconfig"; sourceTree = "<group>"; };
-		169E9792161E64F1CDE4BE5E152A4B05 /* Pods-VoteAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoteAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		267582AC1E3C407E1FA7690E8F0EE9FB /* Pods-VoteAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoteAppUITests.release.xcconfig"; sourceTree = "<group>"; };
-		429D300018DDD2CB9612F01DFE424988 /* Pods-VoteApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoteApp-dummy.m"; sourceTree = "<group>"; };
-		6414CFDAF27B8BE7D7CD5945CA9BA0BD /* Pods-VoteAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoteAppTests.modulemap"; sourceTree = "<group>"; };
-		6E6261F533EA26F0DA039519DD8794E6 /* Pods-VoteAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoteAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		77025F6434464AB590A035371FE6612B /* Pods_VoteApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VoteApp.framework; path = "Pods-VoteApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		77E11C34E745C85134D19D7A6006C621 /* Pods-VoteAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoteAppUITests.modulemap"; sourceTree = "<group>"; };
-		7C629E5D8703D461574D99CEF38C5D1A /* Pods-VoteApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoteApp.modulemap"; sourceTree = "<group>"; };
-		7EEB2850FCFCB53AB71F662104FA1D59 /* Pods_VoteAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VoteAppUITests.framework; path = "Pods-VoteAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		831CDEEEA176350BBD3883F3BEF8CFC4 /* Pods-VoteAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoteAppTests-dummy.m"; sourceTree = "<group>"; };
-		8543E46548C1F8766CE711470802D76C /* Pods-VoteAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoteAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8AD3E1671502E5EC33D53088F6F0ED19 /* Pods-VoteAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoteAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8CCDE6CF303436C9AFD016198BCC85FF /* Pods-VoteAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoteAppUITests-umbrella.h"; sourceTree = "<group>"; };
-		8D30D3A785E8C42F78BA7338095497A2 /* Pods-VoteApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoteApp.release.xcconfig"; sourceTree = "<group>"; };
-		9149A019CE2C69535240DD23EB69549D /* Pods-VoteAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoteAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9C3295E4756C09E3F210DD40CCDAF97A /* Pods-VoteApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoteApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0294C872FBA45BED12432A9873D0CBA8 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstants.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		06ABFEDC0B0F96988968E8327C26CFDE /* IQKeyboardManagerSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-prefix.pch"; sourceTree = "<group>"; };
+		0D6202BCDBC1EF58B267AAC38F4B4C2C /* IQKeyboardManagerSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "IQKeyboardManagerSwift-Info.plist"; sourceTree = "<group>"; };
+		12331BED19FBA0B60525E79395C96733 /* Pods-VoteAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoteAppUITests-dummy.m"; sourceTree = "<group>"; };
+		17C925ED3A65D4F425D976F8AC211F46 /* Pods-VoteAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoteAppUITests-Info.plist"; sourceTree = "<group>"; };
+		17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		1A8BC998D2B89A05AEEBE8B9DA642BAE /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardReturnKeyHandler.swift; path = IQKeyboardManagerSwift/IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		1B4CB01372F20FFD07F33A6355559438 /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IQKeyboardManagerSwift.framework; path = IQKeyboardManagerSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1D28BB1E2271B5A1216AB1DBAA74E9F7 /* Pods-VoteAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoteAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		22123964F937A26E014A805E55E55C4E /* Pods-VoteApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoteApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		260F69A1409CF758D5001DA68F2DAD4A /* Pods-VoteAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoteAppTests.modulemap"; sourceTree = "<group>"; };
+		26897D50142E6F6AC660FB3CA0C486D6 /* Pods-VoteAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoteAppUITests.modulemap"; sourceTree = "<group>"; };
+		2B8F7433902AAAB9F473986D0EF3BB09 /* Pods_VoteAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VoteAppTests.framework; path = "Pods-VoteAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		37E94D7401EAEB55F6258318828D5E31 /* Pods-VoteAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoteAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38AE1C52FFCD63F0EAAC7FF23A68544E /* Pods-VoteAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoteAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		50331ED50EE4396032B16C854AD8ED89 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = IQKeyboardManager.bundle; path = IQKeyboardManagerSwift/Resources/IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		51477DDF48E05A3C8355D7C1B72BEBED /* Pods-VoteAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoteAppTests-Info.plist"; sourceTree = "<group>"; };
+		52F10256705DE10E1E014B2CF04BAA76 /* Pods-VoteApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoteApp.release.xcconfig"; sourceTree = "<group>"; };
+		5CCBEB85E12B1EA072622F5DBD3FF84D /* Pods-VoteAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoteAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE4D8A90A17E37E16348E9C480E4B3C /* IQKeyboardManagerSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQKeyboardManagerSwift-dummy.m"; sourceTree = "<group>"; };
+		5FBFC6966E6F770AC585497FC3F8CB14 /* Pods_VoteAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VoteAppUITests.framework; path = "Pods-VoteAppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65F004842BE5DD698DCAB663C6841CCF /* Pods-VoteApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoteApp-dummy.m"; sourceTree = "<group>"; };
+		6648E2CC965FC59B434F295C2CCDB8F0 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTitleBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		668EC25022AD83512D0240759720F4D1 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+Hierarchy.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		6D189D060C30D8E7D9FE457D683C5670 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQPreviousNextView.swift; path = IQKeyboardManagerSwift/IQToolbar/IQPreviousNextView.swift; sourceTree = "<group>"; };
+		71341C7750CB520E68AE4FBAA5EE29F9 /* IQKeyboardManagerSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQKeyboardManagerSwift-umbrella.h"; sourceTree = "<group>"; };
+		7B7A924E1116084CDAF162CB833FCF9C /* IQKeyboardManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManager.swift; path = IQKeyboardManagerSwift/IQKeyboardManager.swift; sourceTree = "<group>"; };
+		8AA2C1FA7B66AE5161BD2DB253FB9997 /* IQInvocation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQInvocation.swift; path = IQKeyboardManagerSwift/IQToolbar/IQInvocation.swift; sourceTree = "<group>"; };
+		9550B7C63A7F17BDC25A3E2C7F741EBF /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIView+IQKeyboardToolbar.swift"; path = "IQKeyboardManagerSwift/IQToolbar/IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		959C7AE3C93183FD8247004C2F893FE7 /* Pods-VoteAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoteAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		98B4F2019C3302586F413068E2216744 /* IQKeyboardManagerSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IQKeyboardManagerSwift.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A6C92048A3816C466EF97694180243EC /* Pods-VoteApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoteApp-acknowledgements.plist"; sourceTree = "<group>"; };
-		A75933F5B5E136184AE592052913EA0B /* Pods_VoteAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VoteAppTests.framework; path = "Pods-VoteAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE10456B60FDC417E3E8B417AE5D30E0 /* Pods-VoteAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoteAppTests-Info.plist"; sourceTree = "<group>"; };
-		B946E1B78FB57ED58428D7A884F44259 /* Pods-VoteAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoteAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		BBFE7AF79E53D75DBF26BD727FFEB846 /* Pods-VoteAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoteAppUITests-dummy.m"; sourceTree = "<group>"; };
-		C001E37F5A24109DB7EB894FEA8F3A9F /* Pods-VoteAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoteAppTests-umbrella.h"; sourceTree = "<group>"; };
-		C5AB5B26E968858E695B4EF50F3A789C /* Pods-VoteApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoteApp-Info.plist"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D1A25316D1A57ED7D047C550047A325E /* Pods-VoteAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoteAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D5B522D3F5E8696447E7586CC8B583F0 /* Pods-VoteAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoteAppUITests-Info.plist"; sourceTree = "<group>"; };
-		FF938D13D0DD9BF0A6CCAFC140658962 /* Pods-VoteApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoteApp-umbrella.h"; sourceTree = "<group>"; };
+		9F1CDD4F340C23DD238A853E560C9006 /* IQTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQTextView.swift; path = IQKeyboardManagerSwift/IQTextView/IQTextView.swift; sourceTree = "<group>"; };
+		A4309F43DFCE682F75A3E84038E87C8D /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIScrollView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		AB2E86A9817F45A2FCB8B121AAB43D66 /* IQToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQToolbar.swift; path = IQKeyboardManagerSwift/IQToolbar/IQToolbar.swift; sourceTree = "<group>"; };
+		B36E69601033AAB19DCC83DF507DD831 /* Pods_VoteApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VoteApp.framework; path = "Pods-VoteApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52E2517C711AF6D227A9CC155D98419 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQKeyboardManagerConstantsInternal.swift; path = IQKeyboardManagerSwift/Constants/IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		BE731E1D2DDEA0EAA984C0E5484A20E3 /* Pods-VoteApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoteApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		C5DEA3AE42884B14416BE10BFABC6C81 /* Pods-VoteAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoteAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF3741DCE543B8C94770A0196BAD96D5 /* Pods-VoteAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoteAppTests-umbrella.h"; sourceTree = "<group>"; };
+		D2CDBDA1F8322E0B5FE01F4CE0F21A28 /* Pods-VoteAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoteAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4FA51F3D2469AE071201AEC7F2F4945 /* Pods-VoteApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoteApp-umbrella.h"; sourceTree = "<group>"; };
+		D699D3E8CB4DBB5303BB6A0532CB43B7 /* Pods-VoteApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VoteApp-frameworks.sh"; sourceTree = "<group>"; };
+		D7ED286EDAF01A36877E238625C5FB1F /* Pods-VoteAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VoteAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		DAE2D9C1C947F1D271D5D71B985E0303 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUITextFieldView+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		DBE415AE12BB90638725230A5C36300A /* Pods-VoteApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VoteApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DBF9CFFF3719C734C2C959019D64B2A9 /* IQKeyboardManagerSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = IQKeyboardManagerSwift.modulemap; sourceTree = "<group>"; };
+		DCC28CD2B28B3A621A8D4DD8C10A2F49 /* Pods-VoteAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VoteAppTests-dummy.m"; sourceTree = "<group>"; };
+		DF9DD08FE155A184B25A9AD6442DB039 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IQBarButtonItem.swift; path = IQKeyboardManagerSwift/IQToolbar/IQBarButtonItem.swift; sourceTree = "<group>"; };
+		E7BFE0CDAF770614D1412E2300AD7F24 /* Pods-VoteAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VoteAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB1DB6D92DCD8D071E0C25B71EA0C7E3 /* Pods-VoteApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VoteApp-Info.plist"; sourceTree = "<group>"; };
+		F3E9DF635FB01E2C2FD627DD26ADCBD3 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQNSArray+Sort.swift"; path = "IQKeyboardManagerSwift/Categories/IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		F4E503E3961338D612C3F50AAC882CCC /* Pods-VoteApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VoteApp.modulemap"; sourceTree = "<group>"; };
+		F9CBBA914B82B97B6A8FAC4BA9BFF279 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "IQUIViewController+Additions.swift"; path = "IQKeyboardManagerSwift/Categories/IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,119 +142,192 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8F15E4C70D16E52A6ACDDCEC5F8CE98 /* Frameworks */ = {
+		633960B55E99D464B352449032DF078B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E193D6FFD1919146947B5DADCA3DC3C5 /* Foundation.framework in Frameworks */,
+				10D2B86B20A2834AB7A078584D886434 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B886D41EF763DE44F455CB7E74E9A560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E3E6EC07A4F261D041BA0C4CA258260 /* CoreGraphics.framework in Frameworks */,
+				A380ABE3F1AF1CA7A14F9449BDC0B73F /* Foundation.framework in Frameworks */,
+				30C07F53D870FC78B292E0E4F91FEE9E /* QuartzCore.framework in Frameworks */,
+				E3334CC660C4BD5E41C1061B9DC56FF6 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0194A0F46ED0F8AD92AF2BDE3BD78A8F /* Targets Support Files */ = {
+		0E2A0149CDC83980C1E9FF212E701D5E /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CDFE246016B1D55A99FC789893A71737 /* Pods-VoteApp */,
-				80C5906F279AC4B5029F0B10BB277A5E /* Pods-VoteAppTests */,
-				F00435827F4BDF382A5D84FFEFDC3C3B /* Pods-VoteAppUITests */,
+				9162C09575D2F242A89A761DE25F9DB0 /* Pods-VoteApp */,
+				8209F6DADFE0885C81D529DB061204D6 /* Pods-VoteAppTests */,
+				982961DF251895BB97BC1C21CA968222 /* Pods-VoteAppUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		80C5906F279AC4B5029F0B10BB277A5E /* Pods-VoteAppTests */ = {
+		323D7334E767305AAF6A489C1C82DC34 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6414CFDAF27B8BE7D7CD5945CA9BA0BD /* Pods-VoteAppTests.modulemap */,
-				8543E46548C1F8766CE711470802D76C /* Pods-VoteAppTests-acknowledgements.markdown */,
-				8AD3E1671502E5EC33D53088F6F0ED19 /* Pods-VoteAppTests-acknowledgements.plist */,
-				831CDEEEA176350BBD3883F3BEF8CFC4 /* Pods-VoteAppTests-dummy.m */,
-				AE10456B60FDC417E3E8B417AE5D30E0 /* Pods-VoteAppTests-Info.plist */,
-				C001E37F5A24109DB7EB894FEA8F3A9F /* Pods-VoteAppTests-umbrella.h */,
-				D1A25316D1A57ED7D047C550047A325E /* Pods-VoteAppTests.debug.xcconfig */,
-				B946E1B78FB57ED58428D7A884F44259 /* Pods-VoteAppTests.release.xcconfig */,
+				6359BACE9DA570F129BAC3D0514F286A /* IQKeyboardManagerSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6359BACE9DA570F129BAC3D0514F286A /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				DF9DD08FE155A184B25A9AD6442DB039 /* IQBarButtonItem.swift */,
+				8AA2C1FA7B66AE5161BD2DB253FB9997 /* IQInvocation.swift */,
+				7B7A924E1116084CDAF162CB833FCF9C /* IQKeyboardManager.swift */,
+				0294C872FBA45BED12432A9873D0CBA8 /* IQKeyboardManagerConstants.swift */,
+				B52E2517C711AF6D227A9CC155D98419 /* IQKeyboardManagerConstantsInternal.swift */,
+				1A8BC998D2B89A05AEEBE8B9DA642BAE /* IQKeyboardReturnKeyHandler.swift */,
+				F3E9DF635FB01E2C2FD627DD26ADCBD3 /* IQNSArray+Sort.swift */,
+				6D189D060C30D8E7D9FE457D683C5670 /* IQPreviousNextView.swift */,
+				9F1CDD4F340C23DD238A853E560C9006 /* IQTextView.swift */,
+				6648E2CC965FC59B434F295C2CCDB8F0 /* IQTitleBarButtonItem.swift */,
+				AB2E86A9817F45A2FCB8B121AAB43D66 /* IQToolbar.swift */,
+				A4309F43DFCE682F75A3E84038E87C8D /* IQUIScrollView+Additions.swift */,
+				DAE2D9C1C947F1D271D5D71B985E0303 /* IQUITextFieldView+Additions.swift */,
+				668EC25022AD83512D0240759720F4D1 /* IQUIView+Hierarchy.swift */,
+				9550B7C63A7F17BDC25A3E2C7F741EBF /* IQUIView+IQKeyboardToolbar.swift */,
+				F9CBBA914B82B97B6A8FAC4BA9BFF279 /* IQUIViewController+Additions.swift */,
+				B4DA31DBC31042DEA108F29653D2EBA3 /* Resources */,
+				D6D4DBCE0A6A2D52C6F4D484FCC4C74D /* Support Files */,
+			);
+			name = IQKeyboardManagerSwift;
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		8209F6DADFE0885C81D529DB061204D6 /* Pods-VoteAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				260F69A1409CF758D5001DA68F2DAD4A /* Pods-VoteAppTests.modulemap */,
+				37E94D7401EAEB55F6258318828D5E31 /* Pods-VoteAppTests-acknowledgements.markdown */,
+				1D28BB1E2271B5A1216AB1DBAA74E9F7 /* Pods-VoteAppTests-acknowledgements.plist */,
+				DCC28CD2B28B3A621A8D4DD8C10A2F49 /* Pods-VoteAppTests-dummy.m */,
+				51477DDF48E05A3C8355D7C1B72BEBED /* Pods-VoteAppTests-Info.plist */,
+				CF3741DCE543B8C94770A0196BAD96D5 /* Pods-VoteAppTests-umbrella.h */,
+				D2CDBDA1F8322E0B5FE01F4CE0F21A28 /* Pods-VoteAppTests.debug.xcconfig */,
+				C5DEA3AE42884B14416BE10BFABC6C81 /* Pods-VoteAppTests.release.xcconfig */,
 			);
 			name = "Pods-VoteAppTests";
 			path = "Target Support Files/Pods-VoteAppTests";
 			sourceTree = "<group>";
 		};
-		8BA1708F060F7970BBF75652996D98C5 /* Products */ = {
+		8724DCD018676D2366977042402BD3A9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				77025F6434464AB590A035371FE6612B /* Pods_VoteApp.framework */,
-				A75933F5B5E136184AE592052913EA0B /* Pods_VoteAppTests.framework */,
-				7EEB2850FCFCB53AB71F662104FA1D59 /* Pods_VoteAppUITests.framework */,
+				1B4CB01372F20FFD07F33A6355559438 /* IQKeyboardManagerSwift.framework */,
+				B36E69601033AAB19DCC83DF507DD831 /* Pods_VoteApp.framework */,
+				2B8F7433902AAAB9F473986D0EF3BB09 /* Pods_VoteAppTests.framework */,
+				5FBFC6966E6F770AC585497FC3F8CB14 /* Pods_VoteAppUITests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		9162C09575D2F242A89A761DE25F9DB0 /* Pods-VoteApp */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		CDFE246016B1D55A99FC789893A71737 /* Pods-VoteApp */ = {
-			isa = PBXGroup;
-			children = (
-				7C629E5D8703D461574D99CEF38C5D1A /* Pods-VoteApp.modulemap */,
-				9C3295E4756C09E3F210DD40CCDAF97A /* Pods-VoteApp-acknowledgements.markdown */,
-				A6C92048A3816C466EF97694180243EC /* Pods-VoteApp-acknowledgements.plist */,
-				429D300018DDD2CB9612F01DFE424988 /* Pods-VoteApp-dummy.m */,
-				C5AB5B26E968858E695B4EF50F3A789C /* Pods-VoteApp-Info.plist */,
-				FF938D13D0DD9BF0A6CCAFC140658962 /* Pods-VoteApp-umbrella.h */,
-				0A86201F13E892C02E5011DC22BFD16D /* Pods-VoteApp.debug.xcconfig */,
-				8D30D3A785E8C42F78BA7338095497A2 /* Pods-VoteApp.release.xcconfig */,
+				F4E503E3961338D612C3F50AAC882CCC /* Pods-VoteApp.modulemap */,
+				22123964F937A26E014A805E55E55C4E /* Pods-VoteApp-acknowledgements.markdown */,
+				BE731E1D2DDEA0EAA984C0E5484A20E3 /* Pods-VoteApp-acknowledgements.plist */,
+				65F004842BE5DD698DCAB663C6841CCF /* Pods-VoteApp-dummy.m */,
+				D699D3E8CB4DBB5303BB6A0532CB43B7 /* Pods-VoteApp-frameworks.sh */,
+				EB1DB6D92DCD8D071E0C25B71EA0C7E3 /* Pods-VoteApp-Info.plist */,
+				D4FA51F3D2469AE071201AEC7F2F4945 /* Pods-VoteApp-umbrella.h */,
+				DBE415AE12BB90638725230A5C36300A /* Pods-VoteApp.debug.xcconfig */,
+				52F10256705DE10E1E014B2CF04BAA76 /* Pods-VoteApp.release.xcconfig */,
 			);
 			name = "Pods-VoteApp";
 			path = "Target Support Files/Pods-VoteApp";
+			sourceTree = "<group>";
+		};
+		982961DF251895BB97BC1C21CA968222 /* Pods-VoteAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				26897D50142E6F6AC660FB3CA0C486D6 /* Pods-VoteAppUITests.modulemap */,
+				E7BFE0CDAF770614D1412E2300AD7F24 /* Pods-VoteAppUITests-acknowledgements.markdown */,
+				38AE1C52FFCD63F0EAAC7FF23A68544E /* Pods-VoteAppUITests-acknowledgements.plist */,
+				12331BED19FBA0B60525E79395C96733 /* Pods-VoteAppUITests-dummy.m */,
+				17C925ED3A65D4F425D976F8AC211F46 /* Pods-VoteAppUITests-Info.plist */,
+				D7ED286EDAF01A36877E238625C5FB1F /* Pods-VoteAppUITests-umbrella.h */,
+				5CCBEB85E12B1EA072622F5DBD3FF84D /* Pods-VoteAppUITests.debug.xcconfig */,
+				959C7AE3C93183FD8247004C2F893FE7 /* Pods-VoteAppUITests.release.xcconfig */,
+			);
+			name = "Pods-VoteAppUITests";
+			path = "Target Support Files/Pods-VoteAppUITests";
+			sourceTree = "<group>";
+		};
+		B4DA31DBC31042DEA108F29653D2EBA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				50331ED50EE4396032B16C854AD8ED89 /* IQKeyboardManager.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD35F57B08FA07466EF52BE52CC46A1D /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				8BA1708F060F7970BBF75652996D98C5 /* Products */,
-				0194A0F46ED0F8AD92AF2BDE3BD78A8F /* Targets Support Files */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				323D7334E767305AAF6A489C1C82DC34 /* Pods */,
+				8724DCD018676D2366977042402BD3A9 /* Products */,
+				0E2A0149CDC83980C1E9FF212E701D5E /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D6D4DBCE0A6A2D52C6F4D484FCC4C74D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				DBF9CFFF3719C734C2C959019D64B2A9 /* IQKeyboardManagerSwift.modulemap */,
+				98B4F2019C3302586F413068E2216744 /* IQKeyboardManagerSwift.xcconfig */,
+				5EE4D8A90A17E37E16348E9C480E4B3C /* IQKeyboardManagerSwift-dummy.m */,
+				0D6202BCDBC1EF58B267AAC38F4B4C2C /* IQKeyboardManagerSwift-Info.plist */,
+				06ABFEDC0B0F96988968E8327C26CFDE /* IQKeyboardManagerSwift-prefix.pch */,
+				71341C7750CB520E68AE4FBAA5EE29F9 /* IQKeyboardManagerSwift-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/IQKeyboardManagerSwift";
 			sourceTree = "<group>";
 		};
-		F00435827F4BDF382A5D84FFEFDC3C3B /* Pods-VoteAppUITests */ = {
+		DD35F57B08FA07466EF52BE52CC46A1D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				77E11C34E745C85134D19D7A6006C621 /* Pods-VoteAppUITests.modulemap */,
-				9149A019CE2C69535240DD23EB69549D /* Pods-VoteAppUITests-acknowledgements.markdown */,
-				6E6261F533EA26F0DA039519DD8794E6 /* Pods-VoteAppUITests-acknowledgements.plist */,
-				BBFE7AF79E53D75DBF26BD727FFEB846 /* Pods-VoteAppUITests-dummy.m */,
-				D5B522D3F5E8696447E7586CC8B583F0 /* Pods-VoteAppUITests-Info.plist */,
-				8CCDE6CF303436C9AFD016198BCC85FF /* Pods-VoteAppUITests-umbrella.h */,
-				169E9792161E64F1CDE4BE5E152A4B05 /* Pods-VoteAppUITests.debug.xcconfig */,
-				267582AC1E3C407E1FA7690E8F0EE9FB /* Pods-VoteAppUITests.release.xcconfig */,
+				17D5053F2A5215D7472A947EDE5B61B6 /* CoreGraphics.framework */,
+				4AABFE60463C3AF51CB267EA82A0CCF3 /* Foundation.framework */,
+				30C5248F3F8F5DD6FF2489BCA891824D /* QuartzCore.framework */,
+				1B864BFE95FAE118C4C3A52725C9B261 /* UIKit.framework */,
 			);
-			name = "Pods-VoteAppUITests";
-			path = "Target Support Files/Pods-VoteAppUITests";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46F365C07820478D5B3003864E2A5DEC /* Headers */ = {
+		5FD2C029FC627D78FBEBD0C3829ACA56 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1DAA10E08B855B94E1007BF1C16697F /* Pods-VoteApp-umbrella.h in Headers */,
+				5677C54BF14ABA45675F2DEB98AFD0D1 /* IQKeyboardManagerSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,27 +347,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D7F4B14429CF4EC8EDCD40BABD080C6D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D3C46D03847B4A5C67CDC6D7E4E68C /* Pods-VoteApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		563CECE4E21275BDDF0FC1187F92BE4A /* Pods-VoteApp */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 204DFC8286C316F82A5AF3CA32846455 /* Build configuration list for PBXNativeTarget "Pods-VoteApp" */;
-			buildPhases = (
-				46F365C07820478D5B3003864E2A5DEC /* Headers */,
-				15D22E7E881237839AE1CA688062C4F6 /* Sources */,
-				A8F15E4C70D16E52A6ACDDCEC5F8CE98 /* Frameworks */,
-				5691EE8D58B0B7AA31B3CFC708CE30AD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-VoteApp";
-			productName = "Pods-VoteApp";
-			productReference = 77025F6434464AB590A035371FE6612B /* Pods_VoteApp.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		6996C66FF7820D9DBBA4C60C6769AE34 /* Pods-VoteAppTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBD79A32145AFEBCA17FB05FD416A857 /* Build configuration list for PBXNativeTarget "Pods-VoteAppTests" */;
@@ -253,7 +374,26 @@
 			);
 			name = "Pods-VoteAppTests";
 			productName = "Pods-VoteAppTests";
-			productReference = A75933F5B5E136184AE592052913EA0B /* Pods_VoteAppTests.framework */;
+			productReference = 2B8F7433902AAAB9F473986D0EF3BB09 /* Pods_VoteAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91E594AE4546660C837C364AB4902B9B /* Pods-VoteApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFB14E3978483A9725C0496B66F44D2E /* Build configuration list for PBXNativeTarget "Pods-VoteApp" */;
+			buildPhases = (
+				D7F4B14429CF4EC8EDCD40BABD080C6D /* Headers */,
+				15777F4C49E644FB300A29760F28F015 /* Sources */,
+				633960B55E99D464B352449032DF078B /* Frameworks */,
+				2786F5BBF8E53DAF568A03759BED0A65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C6A7A63044C4F20DE7261B37D0129A1 /* PBXTargetDependency */,
+			);
+			name = "Pods-VoteApp";
+			productName = "Pods-VoteApp";
+			productReference = B36E69601033AAB19DCC83DF507DD831 /* Pods_VoteApp.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A79B542091682A925DDA256356E36667 /* Pods-VoteAppUITests */ = {
@@ -272,7 +412,25 @@
 			);
 			name = "Pods-VoteAppUITests";
 			productName = "Pods-VoteAppUITests";
-			productReference = 7EEB2850FCFCB53AB71F662104FA1D59 /* Pods_VoteAppUITests.framework */;
+			productReference = 5FBFC6966E6F770AC585497FC3F8CB14 /* Pods_VoteAppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFF87187B46551C36797F2B899C54212 /* IQKeyboardManagerSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B91B77FBB13EFD33FB1AE6F88ABA7C5 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */;
+			buildPhases = (
+				5FD2C029FC627D78FBEBD0C3829ACA56 /* Headers */,
+				50CEEDE322708ABF7722F6D79CCF256B /* Sources */,
+				B886D41EF763DE44F455CB7E74E9A560 /* Frameworks */,
+				DC94709994DB7B9EF675DAE0DB5045E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IQKeyboardManagerSwift;
+			productName = IQKeyboardManagerSwift;
+			productReference = 1B4CB01372F20FFD07F33A6355559438 /* IQKeyboardManagerSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -292,11 +450,12 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 8BA1708F060F7970BBF75652996D98C5 /* Products */;
+			productRefGroup = 8724DCD018676D2366977042402BD3A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				563CECE4E21275BDDF0FC1187F92BE4A /* Pods-VoteApp */,
+				EFF87187B46551C36797F2B899C54212 /* IQKeyboardManagerSwift */,
+				91E594AE4546660C837C364AB4902B9B /* Pods-VoteApp */,
 				6996C66FF7820D9DBBA4C60C6769AE34 /* Pods-VoteAppTests */,
 				A79B542091682A925DDA256356E36667 /* Pods-VoteAppUITests */,
 			);
@@ -304,7 +463,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5691EE8D58B0B7AA31B3CFC708CE30AD /* Resources */ = {
+		2786F5BBF8E53DAF568A03759BED0A65 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -318,6 +477,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DC94709994DB7B9EF675DAE0DB5045E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B178B38FCD7F99B07422484FC7FD6861 /* IQKeyboardManager.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F8B949678F0053A6CC5587239DCA7B23 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,11 +495,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		15D22E7E881237839AE1CA688062C4F6 /* Sources */ = {
+		15777F4C49E644FB300A29760F28F015 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A3F8CFEA9A9759D0A3A9F79D96C96E4 /* Pods-VoteApp-dummy.m in Sources */,
+				ED37E15394A0880E5233F1CD958134F8 /* Pods-VoteApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +508,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				365C1DFF2E356434DCFEE5F7698C53BA /* Pods-VoteAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50CEEDE322708ABF7722F6D79CCF256B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A4A7D1BD7C4D59EA0FF0A49163A387 /* IQBarButtonItem.swift in Sources */,
+				B888C49BC46C9A62CBF03A8FAD7126F1 /* IQInvocation.swift in Sources */,
+				633A43974DB81C2CCB1A2C3A7B1BFB37 /* IQKeyboardManager.swift in Sources */,
+				DD420F096096C518F8E6B44583BF6521 /* IQKeyboardManagerConstants.swift in Sources */,
+				D8F4B5841E455F5170B1C2FC30863B05 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				92E9BD908B71CFA1C6EDA2FA86BF1635 /* IQKeyboardManagerSwift-dummy.m in Sources */,
+				BA61F495C0E45AA2A88D21D51575FF02 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				986EF56798DE2C7C65737AD9334E517D /* IQNSArray+Sort.swift in Sources */,
+				F0A9F7366B446EDAE4716768BCCADE6C /* IQPreviousNextView.swift in Sources */,
+				36DD0B1007BF3C7BFE352704D5C415F7 /* IQTextView.swift in Sources */,
+				D3A177F9BCAD7042B46E0A36CEDDBF8E /* IQTitleBarButtonItem.swift in Sources */,
+				D7D49BAE6EAAD5EC2DAF370BCDE783A2 /* IQToolbar.swift in Sources */,
+				DDAC963022C8D96EBAAD2284780E0276 /* IQUIScrollView+Additions.swift in Sources */,
+				4467D1C8AABFA6FC321AC7CD6F327B48 /* IQUITextFieldView+Additions.swift in Sources */,
+				4A3294F2FCFF96D15DA6FD2D5D839788 /* IQUIView+Hierarchy.swift in Sources */,
+				02FB225950EEA73C12B14A3D74A2096E /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				F852C0100AB6D9D2CE3E28FCA487C67E /* IQUIViewController+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,13 +549,19 @@
 		174DB5562D37E246F23DFE6DD0094050 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-VoteApp";
-			target = 563CECE4E21275BDDF0FC1187F92BE4A /* Pods-VoteApp */;
+			target = 91E594AE4546660C837C364AB4902B9B /* Pods-VoteApp */;
 			targetProxy = 9B4C65D9487DE9CA65208506D1098450 /* PBXContainerItemProxy */;
+		};
+		1C6A7A63044C4F20DE7261B37D0129A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IQKeyboardManagerSwift;
+			target = EFF87187B46551C36797F2B899C54212 /* IQKeyboardManagerSwift */;
+			targetProxy = 7E85DCB47572AF0CB0070B9E15FD5EE0 /* PBXContainerItemProxy */;
 		};
 		5AFD41C73B4E786F0EA979F288764BEF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-VoteApp";
-			target = 563CECE4E21275BDDF0FC1187F92BE4A /* Pods-VoteApp */;
+			target = 91E594AE4546660C837C364AB4902B9B /* Pods-VoteApp */;
 			targetProxy = F02F243469BBF014A981DD6198A9D523 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -372,7 +569,7 @@
 /* Begin XCBuildConfiguration section */
 		23BACBD07CB7FB09015C9FCE1CE0FC4A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B946E1B78FB57ED58428D7A884F44259 /* Pods-VoteAppTests.release.xcconfig */;
+			baseConfigurationReference = C5DEA3AE42884B14416BE10BFABC6C81 /* Pods-VoteAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -411,7 +608,7 @@
 		};
 		2BF9AF4841A8C3E87CC0C69B7A800A5A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 267582AC1E3C407E1FA7690E8F0EE9FB /* Pods-VoteAppUITests.release.xcconfig */;
+			baseConfigurationReference = 959C7AE3C93183FD8247004C2F893FE7 /* Pods-VoteAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -448,9 +645,9 @@
 			};
 			name = Release;
 		};
-		3B9EA3924800CAF48A95ECDA9E3C93FC /* Debug */ = {
+		36E81B6BC5E2C510DD2BA46E61680CAE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A86201F13E892C02E5011DC22BFD16D /* Pods-VoteApp.debug.xcconfig */;
+			baseConfigurationReference = DBE415AE12BB90638725230A5C36300A /* Pods-VoteApp.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -486,9 +683,44 @@
 			};
 			name = Debug;
 		};
+		3A4C533C39F4762A634E4875267962C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98B4F2019C3302586F413068E2216744 /* IQKeyboardManagerSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		5B1D036EDAFE368ED5A6C71EE57EADC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D1A25316D1A57ED7D047C550047A325E /* Pods-VoteAppTests.debug.xcconfig */;
+			baseConfigurationReference = D2CDBDA1F8322E0B5FE01F4CE0F21A28 /* Pods-VoteAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -523,6 +755,45 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		5CE5F378D7E7748D9DC9D6F751413F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F10256705DE10E1E014B2CF04BAA76 /* Pods-VoteApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VoteApp/Pods-VoteApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VoteApp/Pods-VoteApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -586,7 +857,7 @@
 		};
 		87B6E6767DE048BA4A33ABE78888B1B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 169E9792161E64F1CDE4BE5E152A4B05 /* Pods-VoteAppUITests.debug.xcconfig */;
+			baseConfigurationReference = 5CCBEB85E12B1EA072622F5DBD3FF84D /* Pods-VoteAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -622,12 +893,10 @@
 			};
 			name = Debug;
 		};
-		C03A54D9A7A7B5BAE2077B5B7766FEC8 /* Release */ = {
+		C4ADF7334072163EEC1DB8D49DCDBC33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D30D3A785E8C42F78BA7338095497A2 /* Pods-VoteApp.release.xcconfig */;
+			baseConfigurationReference = 98B4F2019C3302586F413068E2216744 /* IQKeyboardManagerSwift.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -637,23 +906,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-VoteApp/Pods-VoteApp-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-VoteApp/Pods-VoteApp.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/IQKeyboardManagerSwift/IQKeyboardManagerSwift.modulemap";
+				PRODUCT_MODULE_NAME = IQKeyboardManagerSwift;
+				PRODUCT_NAME = IQKeyboardManagerSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -728,11 +996,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		204DFC8286C316F82A5AF3CA32846455 /* Build configuration list for PBXNativeTarget "Pods-VoteApp" */ = {
+		3B91B77FBB13EFD33FB1AE6F88ABA7C5 /* Build configuration list for PBXNativeTarget "IQKeyboardManagerSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B9EA3924800CAF48A95ECDA9E3C93FC /* Debug */,
-				C03A54D9A7A7B5BAE2077B5B7766FEC8 /* Release */,
+				3A4C533C39F4762A634E4875267962C4 /* Debug */,
+				C4ADF7334072163EEC1DB8D49DCDBC33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -751,6 +1019,15 @@
 			buildConfigurations = (
 				87B6E6767DE048BA4A33ABE78888B1B8 /* Debug */,
 				2BF9AF4841A8C3E87CC0C69B7A800A5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFB14E3978483A9725C0496B66F44D2E /* Build configuration list for PBXNativeTarget "Pods-VoteApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36E81B6BC5E2C510DD2BA46E61680CAE /* Debug */,
+				5CE5F378D7E7748D9DC9D6F751413F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

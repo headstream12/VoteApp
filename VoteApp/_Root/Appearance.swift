@@ -14,10 +14,8 @@ final class Appearance {
         let keyboardManager = IQKeyboardManager.shared
         keyboardManager.enable = true
         keyboardManager.shouldResignOnTouchOutside = true
-        keyboardManager.previousNextDisplayMode = .alwaysHide
         keyboardManager.enableAutoToolbar = true
         keyboardManager.toolbarDoneBarButtonItemText = "Готово"
         keyboardManager.toolbarBarTintColor = UIColor.white
-        keyboardManager.toolbarTintColor = UIColor.Appereance.toolbarTextColor
     }
 }

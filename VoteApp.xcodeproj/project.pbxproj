@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		492468369162C22BD7680CA8 /* Pods_VoteAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0456D72951CC5675F27BC56 /* Pods_VoteAppTests.framework */; };
 		9316B023226CB10F00AD4994 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B022226CB10F00AD4994 /* AppDelegate.swift */; };
-		9316B025226CB10F00AD4994 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B024226CB10F00AD4994 /* ViewController.swift */; };
 		9316B028226CB10F00AD4994 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9316B026226CB10F00AD4994 /* Main.storyboard */; };
 		9316B02A226CB10F00AD4994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9316B029226CB10F00AD4994 /* Assets.xcassets */; };
 		9316B02D226CB10F00AD4994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9316B02B226CB10F00AD4994 /* LaunchScreen.storyboard */; };
@@ -70,7 +69,6 @@
 		7B786C06BD0D9A5CEBC15A73 /* Pods-VoteAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VoteAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-VoteAppUITests/Pods-VoteAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9316B01F226CB10F00AD4994 /* VoteApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoteApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9316B022226CB10F00AD4994 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9316B024226CB10F00AD4994 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9316B027226CB10F00AD4994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9316B029226CB10F00AD4994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9316B02C226CB10F00AD4994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -164,13 +162,13 @@
 		9316B021226CB10F00AD4994 /* VoteApp */ = {
 			isa = PBXGroup;
 			children = (
-				935E710F227B53550080BD0A /* _Root */,
+				9327C486227B5D7B007DC2B1 /* Voting */,
 				935E7106227B4F780080BD0A /* _Framework */,
 				935E7105227B4F5F0080BD0A /* _Launcher */,
+				935E710F227B53550080BD0A /* _Root */,
 				935E710A227B4FE20080BD0A /* Auth */,
 				9316B050226CB12700AD4994 /* Encryption.swift */,
 				9316B026226CB10F00AD4994 /* Main.storyboard */,
-				9316B024226CB10F00AD4994 /* ViewController.swift */,
 			);
 			path = VoteApp;
 			sourceTree = "<group>";
@@ -220,6 +218,13 @@
 				9316B060226CB6FE00AD4994 /* Words and Bits.swift */,
 			);
 			path = BigInt;
+			sourceTree = "<group>";
+		};
+		9327C486227B5D7B007DC2B1 /* Voting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Voting;
 			sourceTree = "<group>";
 		};
 		935E7105227B4F5F0080BD0A /* _Launcher */ = {
@@ -331,6 +336,7 @@
 				9316B01B226CB10F00AD4994 /* Sources */,
 				9316B01C226CB10F00AD4994 /* Frameworks */,
 				9316B01D226CB10F00AD4994 /* Resources */,
+				097CF21658066CD7CDD61506 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -450,6 +456,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		097CF21658066CD7CDD61506 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VoteApp/Pods-VoteApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VoteApp/Pods-VoteApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		35C6E2A99513E3A0A5948D20 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -539,7 +567,6 @@
 				9316B081226CB6FE00AD4994 /* Hashable.swift in Sources */,
 				9316B051226CB12700AD4994 /* Encryption.swift in Sources */,
 				9316B071226CB6FE00AD4994 /* Strideable.swift in Sources */,
-				9316B025226CB10F00AD4994 /* ViewController.swift in Sources */,
 				9316B072226CB6FE00AD4994 /* BigInt.swift in Sources */,
 				9316B07B226CB6FE00AD4994 /* Comparable.swift in Sources */,
 				9316B06C226CB6FE00AD4994 /* Division.swift in Sources */,
@@ -727,7 +754,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YJ7WEU84RH;
-				INFOPLIST_FILE = VoteApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VoteApp/_Launcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -746,7 +773,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YJ7WEU84RH;
-				INFOPLIST_FILE = VoteApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VoteApp/_Launcher/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
