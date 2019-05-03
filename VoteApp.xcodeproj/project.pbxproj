@@ -37,6 +37,9 @@
 		9316B07F226CB6FE00AD4994 /* Exponentiation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B068226CB6FE00AD4994 /* Exponentiation.swift */; };
 		9316B080226CB6FE00AD4994 /* Floating Point Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B069226CB6FE00AD4994 /* Floating Point Conversion.swift */; };
 		9316B081226CB6FE00AD4994 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B06A226CB6FE00AD4994 /* Hashable.swift */; };
+		9349EB86227CB50E00C9CFD9 /* VotingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349EB85227CB50E00C9CFD9 /* VotingEntity.swift */; };
+		9349EB88227CB56200C9CFD9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349EB87227CB56200C9CFD9 /* NetworkService.swift */; };
+		9349EB8A227CB5AE00C9CFD9 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349EB89227CB5AE00C9CFD9 /* RequestBuilder.swift */; };
 		935E710E227B50890080BD0A /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E710D227B50890080BD0A /* AuthViewController.swift */; };
 		935E7111227B53680080BD0A /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E7110227B53680080BD0A /* Appearance.swift */; };
 		938452D8227C4251007E9E76 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938452D7227C4251007E9E76 /* VotingViewController.swift */; };
@@ -113,6 +116,9 @@
 		9316B068226CB6FE00AD4994 /* Exponentiation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exponentiation.swift; sourceTree = "<group>"; };
 		9316B069226CB6FE00AD4994 /* Floating Point Conversion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Floating Point Conversion.swift"; sourceTree = "<group>"; };
 		9316B06A226CB6FE00AD4994 /* Hashable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hashable.swift; sourceTree = "<group>"; };
+		9349EB85227CB50E00C9CFD9 /* VotingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingEntity.swift; sourceTree = "<group>"; };
+		9349EB87227CB56200C9CFD9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		9349EB89227CB5AE00C9CFD9 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
 		935E710D227B50890080BD0A /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		935E7110227B53680080BD0A /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 		938452D7227C4251007E9E76 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
@@ -251,6 +257,23 @@
 			path = Voting;
 			sourceTree = "<group>";
 		};
+		9349EB83227CB0FD00C9CFD9 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9349EB87227CB56200C9CFD9 /* NetworkService.swift */,
+				9349EB89227CB5AE00C9CFD9 /* RequestBuilder.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9349EB84227CB4F900C9CFD9 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				9349EB85227CB50E00C9CFD9 /* VotingEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		935E7105227B4F5F0080BD0A /* _Launcher */ = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +306,7 @@
 		935E7108227B4F8F0080BD0A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9349EB83227CB0FD00C9CFD9 /* Network */,
 				935E7109227B4FA90080BD0A /* External */,
 			);
 			path = Model;
@@ -369,6 +393,7 @@
 		938452E9227C4A59007E9E76 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9349EB84227CB4F900C9CFD9 /* Entities */,
 				938452EA227C4A65007E9E76 /* VotingPresenter.swift */,
 			);
 			path = Model;
@@ -647,10 +672,12 @@
 				935E710E227B50890080BD0A /* AuthViewController.swift in Sources */,
 				9316B076226CB6FE00AD4994 /* Bitwise Ops.swift in Sources */,
 				9316B075226CB6FE00AD4994 /* Addition.swift in Sources */,
+				9349EB88227CB56200C9CFD9 /* NetworkService.swift in Sources */,
 				9316B07F226CB6FE00AD4994 /* Exponentiation.swift in Sources */,
 				938452EE227C4B3A007E9E76 /* VotingHeaderCellModel.swift in Sources */,
 				9316B06F226CB6FE00AD4994 /* Subtraction.swift in Sources */,
 				9316B081226CB6FE00AD4994 /* Hashable.swift in Sources */,
+				9349EB86227CB50E00C9CFD9 /* VotingEntity.swift in Sources */,
 				9316B051226CB12700AD4994 /* Encryption.swift in Sources */,
 				938452E5227C4962007E9E76 /* UITableView.swift in Sources */,
 				938452F2227C4BF6007E9E76 /* VotingVariantCellModel.swift in Sources */,
@@ -667,6 +694,7 @@
 				938452E7227C4977007E9E76 /* PTableViewCellModel.swift in Sources */,
 				9316B070226CB6FE00AD4994 /* Random.swift in Sources */,
 				935E7111227B53680080BD0A /* Appearance.swift in Sources */,
+				9349EB8A227CB5AE00C9CFD9 /* RequestBuilder.swift in Sources */,
 				938452EB227C4A65007E9E76 /* VotingPresenter.swift in Sources */,
 				938452F0227C4BDF007E9E76 /* UITableViewCell.swift in Sources */,
 			);
@@ -847,6 +875,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YJ7WEU84RH;
 				INFOPLIST_FILE = "$(SRCROOT)/VoteApp/_Launcher/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -866,6 +895,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YJ7WEU84RH;
 				INFOPLIST_FILE = "$(SRCROOT)/VoteApp/_Launcher/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
