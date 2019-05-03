@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="135" id="KGk-i7-Jjw" customClass="VotingHeaderCell" customModule="VoteApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="135"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="134.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Цвет формы" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VkS-7Y-OOq">
+                        <rect key="frame" x="16" y="16" width="288" height="35.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                        <color key="textColor" red="0.21960784310000001" green="0.21960784310000001" blue="0.21960784310000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Сегодня мы выбираем какой цвет формы должен быть в следующем сезоне у нашей любимой команды" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7xd-Ue-tZW">
+                        <rect key="frame" x="16" y="63.5" width="288" height="54"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q8D-He-D8k">
+                        <rect key="frame" x="0.0" y="133.5" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="rax-bj-Igm"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="VkS-7Y-OOq" secondAttribute="trailing" constant="16" id="8BJ-fg-rpf"/>
+                    <constraint firstAttribute="trailing" secondItem="q8D-He-D8k" secondAttribute="trailing" id="Dld-xD-NVv"/>
+                    <constraint firstAttribute="bottom" secondItem="q8D-He-D8k" secondAttribute="bottom" id="Hlw-No-o6m"/>
+                    <constraint firstAttribute="trailing" secondItem="7xd-Ue-tZW" secondAttribute="trailing" constant="16" id="IZN-4S-vCP"/>
+                    <constraint firstItem="VkS-7Y-OOq" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="Krf-GN-Fk0"/>
+                    <constraint firstItem="q8D-He-D8k" firstAttribute="top" secondItem="7xd-Ue-tZW" secondAttribute="bottom" constant="16" id="LZB-qK-vRK"/>
+                    <constraint firstItem="q8D-He-D8k" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="TWu-91-hUw"/>
+                    <constraint firstItem="VkS-7Y-OOq" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="b5u-L1-nXT"/>
+                    <constraint firstItem="7xd-Ue-tZW" firstAttribute="top" secondItem="VkS-7Y-OOq" secondAttribute="bottom" constant="12" id="xZy-Xk-AYo"/>
+                    <constraint firstItem="7xd-Ue-tZW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="16" id="ySl-RJ-QjK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="7xd-Ue-tZW" id="UCh-5I-H7o"/>
+                <outlet property="titleLabel" destination="VkS-7Y-OOq" id="4DF-oI-zOW"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="178.45982142857142"/>
+        </tableViewCell>
+    </objects>
+</document>

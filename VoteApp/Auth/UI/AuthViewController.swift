@@ -29,5 +29,13 @@ class AuthViewController: UIViewController {
         attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: yaColor, range: NSRange(location: 0, length: 1))
         titleLabel.attributedText = attributedString
         
+        doneButton.addTarget(self, action: #selector(doneButtonClick), for: .touchUpInside)
+    }
+    
+    @objc private func doneButtonClick(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let vc = storyboard.instantiateViewController(withIdentifier: String(describing: VotingViewController.self))
+        
+        present(vc, animated: true, completion: nil)
     }
 }

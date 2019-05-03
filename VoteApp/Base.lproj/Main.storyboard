@@ -137,5 +137,35 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
         </scene>
+        <!--Voting View Controller-->
+        <scene sceneID="D1q-cH-mk1">
+            <objects>
+                <viewController storyboardIdentifier="VotingViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="L8u-K6-5Fn" customClass="VotingViewController" customModule="VoteApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3EI-7L-x9F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oyz-cS-NWb">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pWf-L8-6y0" firstAttribute="trailing" secondItem="oyz-cS-NWb" secondAttribute="trailing" id="9sk-MF-XP5"/>
+                            <constraint firstItem="pWf-L8-6y0" firstAttribute="bottom" secondItem="oyz-cS-NWb" secondAttribute="bottom" id="EPv-B5-5NQ"/>
+                            <constraint firstItem="oyz-cS-NWb" firstAttribute="top" secondItem="pWf-L8-6y0" secondAttribute="top" id="bLR-Au-cGe"/>
+                            <constraint firstItem="oyz-cS-NWb" firstAttribute="leading" secondItem="pWf-L8-6y0" secondAttribute="leading" id="pGe-sh-VaK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pWf-L8-6y0"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="oyz-cS-NWb" id="4Zh-dl-H6U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SBm-e2-SaY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="809" y="133"/>
+        </scene>
     </scenes>
 </document>
