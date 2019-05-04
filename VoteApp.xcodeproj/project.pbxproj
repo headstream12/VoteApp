@@ -14,7 +14,7 @@
 		9316B02D226CB10F00AD4994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9316B02B226CB10F00AD4994 /* LaunchScreen.storyboard */; };
 		9316B038226CB10F00AD4994 /* VoteAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B037226CB10F00AD4994 /* VoteAppTests.swift */; };
 		9316B043226CB10F00AD4994 /* VoteAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B042226CB10F00AD4994 /* VoteAppUITests.swift */; };
-		9316B051226CB12700AD4994 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B050226CB12700AD4994 /* Encryption.swift */; };
+		9316B051226CB12700AD4994 /* Encrypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B050226CB12700AD4994 /* Encrypter.swift */; };
 		9316B06B226CB6FE00AD4994 /* GCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B054226CB6FD00AD4994 /* GCD.swift */; };
 		9316B06C226CB6FE00AD4994 /* Division.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B055226CB6FD00AD4994 /* Division.swift */; };
 		9316B06D226CB6FE00AD4994 /* Prime Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316B056226CB6FD00AD4994 /* Prime Test.swift */; };
@@ -40,6 +40,8 @@
 		9349EB86227CB50E00C9CFD9 /* VotingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349EB85227CB50E00C9CFD9 /* VotingEntity.swift */; };
 		9349EB88227CB56200C9CFD9 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349EB87227CB56200C9CFD9 /* NetworkService.swift */; };
 		9349EB8A227CB5AE00C9CFD9 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349EB89227CB5AE00C9CFD9 /* RequestBuilder.swift */; };
+		9349EB8C227D635000C9CFD9 /* VotingAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349EB8B227D635000C9CFD9 /* VotingAPI.swift */; };
+		9349EB8E227D6A2A00C9CFD9 /* SendStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9349EB8D227D6A2A00C9CFD9 /* SendStatus.swift */; };
 		935E710E227B50890080BD0A /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E710D227B50890080BD0A /* AuthViewController.swift */; };
 		935E7111227B53680080BD0A /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 935E7110227B53680080BD0A /* Appearance.swift */; };
 		938452D8227C4251007E9E76 /* VotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938452D7227C4251007E9E76 /* VotingViewController.swift */; };
@@ -93,7 +95,7 @@
 		9316B03E226CB10F00AD4994 /* VoteAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoteAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9316B042226CB10F00AD4994 /* VoteAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteAppUITests.swift; sourceTree = "<group>"; };
 		9316B044226CB10F00AD4994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9316B050226CB12700AD4994 /* Encryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
+		9316B050226CB12700AD4994 /* Encrypter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encrypter.swift; sourceTree = "<group>"; };
 		9316B054226CB6FD00AD4994 /* GCD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCD.swift; sourceTree = "<group>"; };
 		9316B055226CB6FD00AD4994 /* Division.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Division.swift; sourceTree = "<group>"; };
 		9316B056226CB6FD00AD4994 /* Prime Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Prime Test.swift"; sourceTree = "<group>"; };
@@ -119,6 +121,8 @@
 		9349EB85227CB50E00C9CFD9 /* VotingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingEntity.swift; sourceTree = "<group>"; };
 		9349EB87227CB56200C9CFD9 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		9349EB89227CB5AE00C9CFD9 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		9349EB8B227D635000C9CFD9 /* VotingAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingAPI.swift; sourceTree = "<group>"; };
+		9349EB8D227D6A2A00C9CFD9 /* SendStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendStatus.swift; sourceTree = "<group>"; };
 		935E710D227B50890080BD0A /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		935E7110227B53680080BD0A /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
 		938452D7227C4251007E9E76 /* VotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VotingViewController.swift; sourceTree = "<group>"; };
@@ -194,7 +198,7 @@
 				935E7105227B4F5F0080BD0A /* _Launcher */,
 				935E710F227B53550080BD0A /* _Root */,
 				935E710A227B4FE20080BD0A /* Auth */,
-				9316B050226CB12700AD4994 /* Encryption.swift */,
+				9316B050226CB12700AD4994 /* Encrypter.swift */,
 				9316B026226CB10F00AD4994 /* Main.storyboard */,
 				9327C486227B5D7B007DC2B1 /* Voting */,
 			);
@@ -270,6 +274,7 @@
 			isa = PBXGroup;
 			children = (
 				9349EB85227CB50E00C9CFD9 /* VotingEntity.swift */,
+				9349EB8D227D6A2A00C9CFD9 /* SendStatus.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -395,6 +400,7 @@
 			children = (
 				9349EB84227CB4F900C9CFD9 /* Entities */,
 				938452EA227C4A65007E9E76 /* VotingPresenter.swift */,
+				9349EB8B227D635000C9CFD9 /* VotingAPI.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -660,6 +666,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9316B06D226CB6FE00AD4994 /* Prime Test.swift in Sources */,
+				9349EB8E227D6A2A00C9CFD9 /* SendStatus.swift in Sources */,
 				9316B07A226CB6FE00AD4994 /* Square Root.swift in Sources */,
 				9316B07C226CB6FE00AD4994 /* BigUInt.swift in Sources */,
 				9316B078226CB6FE00AD4994 /* Codable.swift in Sources */,
@@ -674,11 +681,12 @@
 				9316B075226CB6FE00AD4994 /* Addition.swift in Sources */,
 				9349EB88227CB56200C9CFD9 /* NetworkService.swift in Sources */,
 				9316B07F226CB6FE00AD4994 /* Exponentiation.swift in Sources */,
+				9349EB8C227D635000C9CFD9 /* VotingAPI.swift in Sources */,
 				938452EE227C4B3A007E9E76 /* VotingHeaderCellModel.swift in Sources */,
 				9316B06F226CB6FE00AD4994 /* Subtraction.swift in Sources */,
 				9316B081226CB6FE00AD4994 /* Hashable.swift in Sources */,
 				9349EB86227CB50E00C9CFD9 /* VotingEntity.swift in Sources */,
-				9316B051226CB12700AD4994 /* Encryption.swift in Sources */,
+				9316B051226CB12700AD4994 /* Encrypter.swift in Sources */,
 				938452E5227C4962007E9E76 /* UITableView.swift in Sources */,
 				938452F2227C4BF6007E9E76 /* VotingVariantCellModel.swift in Sources */,
 				9316B071226CB6FE00AD4994 /* Strideable.swift in Sources */,

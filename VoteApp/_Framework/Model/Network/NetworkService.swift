@@ -24,7 +24,7 @@ class NetworkService {
         return request
     }
     
-    func send<T: Decodable>(rawUrl: String, parameters: [String: Any?], completion: @escaping (Result<T, Error>) -> Void) {
+    func send<T: Decodable>(rawUrl: String, parameters: [String: Any?], responseType: T.Type, completion: @escaping (Result<T, Error>) -> Void) {
         
         guard let request = buildRequest(rawUrl, parameters: parameters) else {
             completion(.failure(NSError()))
@@ -40,7 +40,7 @@ class NetworkService {
                     completion(.failure(error ?? NSError()))
                 }
             }
-        }
+        }.resume()
     }
     
     private func decode<T: Decodable>(data: Data?, response: URLResponse?, err: Error?) -> T? {
@@ -49,6 +49,7 @@ class NetworkService {
         }
         do {
             let result = try JSONDecoder().decode(T.self, from: realData)
+            print(result)
             return result
             
         } catch {

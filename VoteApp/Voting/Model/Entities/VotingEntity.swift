@@ -9,5 +9,6 @@
 import Foundation
 
 struct VotingEntity: Codable {
-    var publicKey: String 
+    var publicKey: String
+    var g: String
 }
